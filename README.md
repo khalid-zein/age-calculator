@@ -9,4 +9,8 @@ Khalid Zein- A software Developer with 4 years of experince
 ## Contacts
 
 +254794794734
+
 Instagram- _.Abu_abdulrahman
+
+Linkedin- khalid-zein
+
