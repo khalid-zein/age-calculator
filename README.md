@@ -14,3 +14,7 @@ Instagram- _.Abu_abdulrahman
 
 Linkedin- khalid-zein
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
