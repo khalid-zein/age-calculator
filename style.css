@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.division{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://previews.123rf.com/images/maxkabakov/maxkabakov1511/maxkabakov151102392/48081290-business-concept-glowing-calculator-icon-in-grunge-dark-room-with-dirty-floor-black-background-with-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    color: red;
+}
