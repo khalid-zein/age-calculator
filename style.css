@@ -120,7 +120,7 @@ nav ul li{
     animation: text 2s 1;
 }
 li:first-child{
-    font-size: 6em;
+    font-size: 4em;
 }
 li:nth-child(2){
     font-size: 3em;
@@ -141,6 +141,40 @@ li:last-child{
         letter-spacing: 3px; 
     }
 
+}
+.span:before{
+    content: "";
+    animation: animate infinite 10s;
+    font-size: 60px;
+}
+@keyframes animate{
+    0%{
+        content: 'Refer to friends';
+        color: #f9004d;
+    }
+    20%{
+        content: 'Give Feedback';
+        color: #f9004d;
+    }
+    40%{
+        content: 'Have Fun';
+        color: #f9004d;
+    }
+    60%{
+        content: 'Learn';
+        color: #f9004d;
+    }
+    80%{
+        content: 'Appreciate';
+        color: #f9004d;
+    }
+    100%{
+        content: 'Speak Up';
+        color: #f9004d;
+    }
+}
+nav h2{
+    margin: 30px;
 }
 
 
