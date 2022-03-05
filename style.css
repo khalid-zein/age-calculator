@@ -94,8 +94,8 @@ input[type="radio"]{
     width: 30px;
     height: 30px;
 }
-span{
-    padding: 10px;
+.span {
+    padding: 50px;
 }
 .agreement{
     font-size: 15px;
@@ -121,12 +121,15 @@ nav ul li{
 }
 li:first-child{
     font-size: 4em;
+    color: rgb(177, 137, 44);
 }
 li:nth-child(2){
     font-size: 3em;
+    color: rgb(91, 209, 215);
 }
 li:last-child{
     font-size: 2em;
+    
 }
 @keyframes text{
     0%{
@@ -149,11 +152,11 @@ li:last-child{
 }
 @keyframes animate{
     0%{
-        content: 'Refer to friends';
+        content: 'Do Good';
         color: #f9004d;
     }
     20%{
-        content: 'Give Feedback';
+        content: 'Always Pray';
         color: #f9004d;
     }
     40%{
@@ -176,5 +179,50 @@ li:last-child{
 nav h2{
     margin: 30px;
 }
-
-
+.description{
+    width: 450px;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+.description p{
+    color: #efdab9;
+    font-family: "poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+    
+}
+.description h3{
+    color: #efdab9;
+    margin-bottom: 10px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: "lato", sans-serif;
+}
+.description span{
+    color: rgb(240, 191, 76);
+}
+.share{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.share p{
+    font-size: 23px;
+    color: wheat;
+    margin-right: 60px;
+}
+.share .social a{
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+    transition: transform .3s;
+}
+.share .social a:hover{
+    transform: scale(2.0);
+}
