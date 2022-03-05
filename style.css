@@ -105,4 +105,5 @@ span{
 .user{
     color: rgba(207, 103, 6, 0.918);
     text-decoration: underline;
+    cursor: pointer;
 }
