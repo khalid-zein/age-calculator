@@ -108,3 +108,39 @@ span{
     text-decoration: underline;
     cursor: pointer;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    animation: text 2s 1;
+}
+li:first-child{
+    font-size: 6em;
+}
+li:nth-child(2){
+    font-size: 3em;
+}
+li:last-child{
+    font-size: 2em;
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-right: -80px;
+    }
+    30%{
+        letter-spacing: 5px;
+        margin-right: -30px;
+    }
+    85%{
+        letter-spacing: 3px; 
+    }
+
+}
+
+
