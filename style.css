@@ -238,8 +238,9 @@ nav h2{
 .results p{
     font-size: 45px;
     position: absolute;
-    top: 20%;
-    left: 30%;
-    color: red;
+    top: 24%;
+    left: 41%;
+    color: wheat;
+    width: 350px;
 
 }

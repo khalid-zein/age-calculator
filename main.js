@@ -20,11 +20,11 @@
     // console.log(Day);
 
     if(gender.value === "female"){
-        name.innerHTML = femaleAkan[Day];
+        name.innerHTML ="Your Akan Name is " + femaleAkan[Day];
         // alert(femaleAkan[Day]);
     }
     if(gender.value === "male"){
-        name.innerHTML = maleAkan[Day];
+        name.innerHTML = "Your Akan Name is " + maleAkan[Day];
         // alert(maleAkan[Day]);
     }
 
