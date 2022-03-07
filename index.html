@@ -29,15 +29,18 @@
         <div class="card">
             <form class="radio-button">
                 <p>Enter your date of birth</p>
-                <input type="date" value="Enter your birthday date" class="card-input"><br>
+                <input type="date" id="date">
+            
 
                 <p>Choose your gender</p><br>
-                <input type="radio" name="size" id="male" checked="checked">
-                <label for="Male">Male</label><br>
-                <input type="radio" name="size" id="female">
-                <label for="Female">Female</label><br>
+                
+                  <input type="radio" name="gender" id="male" value="male" checked="checked">
+                  <label for="male">male</label>
+                  <input type="radio" name="gender" id="female" value="female">
+                  <label for="female">female</label>
+                
                  
-                <input type="submit" name="btn" class="button"><br>
+                <button id="btn">submit</button><br>
 
                 <p class="agreement">Agree to continue</p>
                 <input type="checkbox" name="checkbox" id="checkbox">
@@ -55,13 +58,18 @@
 
         <div class="share">
             <p>Lets Connect</p>
-            
+
             <div class="social">
               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
               <a href="#"><i class="fa-brands fa-github"></i></a>
               <a href="#"><i class="fa-brands fa-twitter"></i></a>
               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
+        </div>
+
+        
+        <div class="results">
+            <p id="name"></p>
         </div>
 
 
