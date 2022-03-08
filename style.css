@@ -242,3 +242,11 @@ nav h2{
     width: 350px;
 
 }
+#birth{
+    font-size: 45px;
+    position: absolute;
+    top: 24%;
+    left: 41%;
+    color: red;
+    width: 350px;
+}
