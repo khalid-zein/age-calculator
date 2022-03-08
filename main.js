@@ -24,14 +24,14 @@
     console.log(Day);
     
       if(date === ""){
-          user.innerHTML = "choose your date of birth!";
+         return  user.innerHTML = "choose your date of birth!";
       } else if(gender.value === "female"){
           name.innerHTML ="Your Akan Name is " + femaleAkan[Day];
 
         } else if(gender.value === "male"){
             name.innerHTML = "Your Akan Name is " + maleAkan[Day];
         }
-
+        user.innerHTML = "";
         formReset();
 
     });
