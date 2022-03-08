@@ -14,6 +14,10 @@ Instagram- _.Abu_abdulrahman
 
 Linkedin- khalid-zein
 
+## Languages
+
+HTML, CSS, Javascript
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
